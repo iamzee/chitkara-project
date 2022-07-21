@@ -29,6 +29,21 @@
       width: 80vw;
       margin: 24px auto;
     }
+
+    .nav a {
+      border-right: 2px solid teal;
+      padding: 0px 18px;
+      color: teal;
+    }
+
+    .nav a:last-child {
+      border-right: 0px solid teal;
+      padding: 0px 18px;
+    }
+
+    tr:nth-of-type(odd) {
+      background-color: #eee;
+    }
   </style>
 </head>
 <body>
@@ -57,33 +72,36 @@
       <tr>
         <td>Monday</td>
         <td colspan="3">PA</td>
-        <td></td>
+        <td rowspan="5" style="writing-mode: vertical-lr;">LUNCH</td>
         <td colspan="3">F&D</td>
-        <td colspan="2"></td>
+        <td colspan="2">-</td>
       </tr>
       <tr>
         <td>Tuesday</td>
         <td colspan="3">PA</td>
-        <td colspan="4"></td>
+        <!-- <td></td> -->
+        <td colspan="3">-</td>
         <td colspan="2">NALR</td>
       </tr>
       <tr>
         <td>Wednesday</td>
         <td colspan="3">PA</td>
-        <td></td>
+        <!-- <td></td> -->
         <td colspan="3">F&D</td>
-        <td colspan="2"></td>
+        <td colspan="2">-</td>
       </tr>
       <tr>
         <td>Thurday</td>
         <td colspan="3">PA</td>
-        <td colspan="4"></td>
+        <!-- <td></td> -->
+        <td colspan="3">-</td>
         <td colspan="2">NALR</td>
       </tr>
       <tr>
         <td>Friday</td>
         <td colspan="3">F&D</td>
-        <td colspan="4"></td>
+        <!-- <td></td> -->
+        <td colspan="3">-</td>
         <td colspan="2">NALR</td>
       </tr>
     </tbody>
